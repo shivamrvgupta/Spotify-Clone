@@ -48,7 +48,7 @@ nav{
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 450px;
+    min-height: 425px;
     overflow: hidden;
 }
 .banner-width{
@@ -88,12 +88,14 @@ button{
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
+    margin-bottom: 20px;
+    /* height: 142px */
 }
 .feature-img{
     aspect-ratio: 1;
     width: 30%;
     max-width: 115.83px;
-    height: auto;
+    height: 30%;
     margin-right: 20px;
 }
 .feature-info{
@@ -110,4 +112,85 @@ button{
     font-size: 16px;
     font-family: spotify-light;
 
+}
+.free-img{
+    background: url(/assets/bubbles-phone-mobile.svg)
+                center top 16px / 506px 512px no-repeat, white;
+    display: flex;                
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+
+.mobile-screen-2{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, .3);
+    border-radius: 35px 35px 0 0;
+}
+
+.glare{
+    width: 100%;
+    height: 78px;
+    background: linear-gradient(transparent, rgb( 176, 35, 194));
+    z-index: 100;
+    margin-top: -75px;
+}
+.free-info{
+    background: linear-gradient(
+                rgba(176, 35,194) 15%,
+                rgba(96, 11, 231));
+    text-align: center;               
+    padding: 80px 15px 70px; 
+}
+.free-content{
+    color: #fff;
+    font-size: 32px;
+    font-family: spotify-medium;
+}
+
+.faq-section{
+    padding: 35px 15px;
+}
+
+.heading{
+    font-family: spotify-medium2;
+}
+.question-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 28px;
+}
+
+.question{
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: spotify-bold;
+}
+.answer{
+    font-family: spotify-light;
+    padding: 15px 32px 32px;
+}
+
+.active{
+    background: #f0f0f0;
+}
+
+.ready-section{
+    background: url("assets/lets-play.svg") center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    padding: 112px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ready-content{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 32px;
+    font-family: spotify-medium ;
 }
