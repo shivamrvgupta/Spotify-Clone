@@ -346,7 +346,9 @@ button:hover{
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
-
+.global{
+    margin: 0 8px 0 0;
+}
 
 
 
