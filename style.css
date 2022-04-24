@@ -231,10 +231,9 @@ button:hover{
     height: 27px;
     width: 89px;
 }
-.footer-links{
-    font-size: 16px;
-    font-family: Circular,spotify-circular, Helvetica,Arial,sans-serif;
-    font-weight: 400;
+.footer{
+    font-size: 16px !important;
+    font-family: spotify-bold;
 }
 
 .data-links-text .hover{
@@ -408,11 +407,14 @@ button:hover{
     .footer-head{
         width: 16.66666667%;
     }
-    .footer-links{
+    .footer-data{
+        display: flex;
         flex-direction: row;
     }
     .footer-link-data{
         flex: 1 0;
+        padding: 0 15px;
+        margin: 0;
     }
     
 }
@@ -507,6 +509,35 @@ button:hover{
     .ready-content{
         font-size: 80px;
     }
+    .footer-section{
+        padding: 80px 0 50px;
+    }
+    .footer-nav{
+        display: flex;
+        flex-wrap: wrap;
+        width: 992px;
+    }   
+    .footer-head{
+        padding: 30px 15px;
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .footer-logo{
+        width: 132px;
+        height: 41.9px;
+    }
+    .footer-data{
+        width: 50%;
+    }
+    .footer-social{
+        margin: 20px 15px 0 auto;
+    }
+    .country-tag{
+        width: 100%;
+    }
+    .bottom-links{
+        width: 100%;
+    }
 }
 @media (min-width:1200px) {
     .nav-bar{
@@ -534,5 +565,8 @@ button:hover{
     }
     .faq-section{
         max-width: 1170px;
+    }
+    .footer-nav {
+        max-width: 1200px;
     }
 }
