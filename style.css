@@ -156,7 +156,7 @@ button{
 }
 
 .heading{
-    font-family: spotify-medium2;
+    font-family: spotify-medium;
 }
 .question-div{
     display: flex;
@@ -345,5 +345,24 @@ button{
         font-size: 40px;
         line-height: 46px;
         margin-bottom: 72px;
+    }
+    .feature-section{
+        padding: 75px 15px;
+    }
+    .feature-div{
+         max-width: 750px;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .feature{
+        max-width: 360px;
+    }
+    .feature-info{
+        width: 55%;
+    }
+    .feature-img{
+        width: 25%;
+        height: 25%;
     }
 }
